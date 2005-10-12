@@ -7,14 +7,6 @@ body {
    background: #e2ebed;
 }
 
-h1 {
-   color: #fff;
-   background: #317082;
-   font-size: 45px;
-   letter-spacing: 15px;
-   margin: 0px;
-}
-
 h3 {
    font-size: 20px;
    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Arial", sans-serif;
@@ -23,51 +15,50 @@ h3 {
 }
 
 #container {
-   margin: 0 auto;
+   margin: auto;
    width: 724px;
    position: relative;
    color: #ddd;
    background: #317082;
-   padding: 30px 10px 0px 10px;
+   padding: 10px 10px 0px 10px;
 }
 
 #pageTitle {
-   padding-bottom: 25px;
    text-align: center;
+   margin: 0px;
 }
 
 #logo {
-   position: absolute;
-   padding-top: 25px;
-   padding-bottom: 30px;
-   height: 171px;
-   width: 724px;
-   margin: 0;
-   background: url("img/background.jpg") no-repeat;
+   vertical-align:middle;
+   margin: 0px 50px 0px 0px;
 }
 
-#hileLogo {
-   text-align: center;
-   display: block;
+#title {
+   color: #fff;
+   background: #317082;
+   font-size: 40px;
+   letter-spacing: 10px;
    margin: 0px;
-   padding: 0px 520px 0px 0px;
+}
+
+#ban {
+   height: 171px;
+   width: 724px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background: url("img/background.jpg") no-repeat;
 }
 
 #textLogo {
    font-size: 13px;
-   text-align: right;
+   text-align: center;
    font-family: "Trebuchet MS", sans-serif;
-   color: #000;
-   background: #fff; 
-}
-
-#logo p {
-   margin: 0px;
-   text-align: right;
+   
+   
 }
 
 #pageData {
-   margin: 200px 20px 0px 243px;
+   margin: 0px 0px 0px 240px;
 }
 
 #pageData p {
@@ -76,7 +67,7 @@ h3 {
 }
     
 #pageData h3 {
-   margin: 40px 0px 10px 30px;
+   margin: 0px 0px 10px 30px;
 }
 
 #linkList {
@@ -97,7 +88,7 @@ h3 {
 
 #linkList li {
    font-size: 12px;
-   padding: 10px 10px 10px 10px;
+   padding: 10px 10px 10px 0px;
 }
 
 #certif {
@@ -113,11 +104,13 @@ h3 {
 
 #linkList ul li a {
    text-decoration: underline;
+   color: #eee;
    display: block;
    font-size: 13px;
 }
 
 #linkList ul li a:hover {
-   color: #D60808;
+   text-decoration: none;
+   color: #fff;
    background: #317082;
 }
