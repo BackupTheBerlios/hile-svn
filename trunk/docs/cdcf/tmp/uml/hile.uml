@@ -16,6 +16,8 @@
     <searchpath href="PROJECT_DIR" />
     <searchpath href="PROJECT_DIR" />
     <searchpath href="PROJECT_DIR" />
+    <searchpath href="PROJECT_DIR" />
+    <searchpath href="PROJECT_DIR" />
     <member type="xmi" />
     <member type="pgml" />
     <member type="pgml" />
@@ -2616,6 +2618,9 @@
                   <Behavioral_Elements.Use_Cases.UseCase.include>
                     <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.195"/>
                   </Behavioral_Elements.Use_Cases.UseCase.include>
+                  <Behavioral_Elements.Use_Cases.UseCase.include2>
+                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.196"/>
+                  </Behavioral_Elements.Use_Cases.UseCase.include2>
                 </Behavioral_Elements.Use_Cases.UseCase>
                 <Behavioral_Elements.Use_Cases.UseCase xmi.id="xmi.119" xmi.uuid="-64--88-1-1--5639f880:10709a5930c:-7ff9">
                   <Foundation.Core.ModelElement.name>Modifier son mot de passe</Foundation.Core.ModelElement.name>
@@ -2637,9 +2642,9 @@
                     <Foundation.Core.Namespace xmi.idref="xmi.192"/>
                   </Foundation.Core.ModelElement.namespace>
                   <Behavioral_Elements.Use_Cases.UseCase.include2>
-                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.196"/>
                     <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.197"/>
                     <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.198"/>
+                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.199"/>
                   </Behavioral_Elements.Use_Cases.UseCase.include2>
                 </Behavioral_Elements.Use_Cases.UseCase>
                 <Behavioral_Elements.Use_Cases.UseCase xmi.id="xmi.127" xmi.uuid="-64--88-1-1--5639f880:10709a5930c:-7fe7">
@@ -2652,7 +2657,7 @@
                     <Foundation.Core.Namespace xmi.idref="xmi.192"/>
                   </Foundation.Core.ModelElement.namespace>
                   <Behavioral_Elements.Use_Cases.UseCase.include>
-                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.198"/>
+                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.199"/>
                   </Behavioral_Elements.Use_Cases.UseCase.include>
                   <Behavioral_Elements.Use_Cases.UseCase.include2>
                     <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.195"/>
@@ -2668,10 +2673,11 @@
                     <Foundation.Core.Namespace xmi.idref="xmi.192"/>
                   </Foundation.Core.ModelElement.namespace>
                   <Behavioral_Elements.Use_Cases.UseCase.include>
+                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.197"/>
                     <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.196"/>
                   </Behavioral_Elements.Use_Cases.UseCase.include>
                 </Behavioral_Elements.Use_Cases.UseCase>
-                <Behavioral_Elements.Use_Cases.UseCase xmi.id="xmi.199" xmi.uuid="-64--88-1-1--4f086ac1:107097321cd:-7ffc">
+                <Behavioral_Elements.Use_Cases.UseCase xmi.id="xmi.200" xmi.uuid="-64--88-1-1--4f086ac1:107097321cd:-7ffc">
                   <Foundation.Core.ModelElement.name>Ouvrir/Fermer une session</Foundation.Core.ModelElement.name>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -2694,7 +2700,7 @@
                     <Foundation.Core.Namespace xmi.idref="xmi.192"/>
                   </Foundation.Core.ModelElement.namespace>
                   <Behavioral_Elements.Use_Cases.UseCase.include>
-                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.197"/>
+                    <Behavioral_Elements.Use_Cases.Include xmi.idref="xmi.198"/>
                   </Behavioral_Elements.Use_Cases.UseCase.include>
                 </Behavioral_Elements.Use_Cases.UseCase>
                 <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.194" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff3">
@@ -2706,10 +2712,10 @@
                     <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.193"/>
                   </Behavioral_Elements.Use_Cases.Include.addition>
                   <Behavioral_Elements.Use_Cases.Include.base>
-                    <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.199"/>
+                    <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.200"/>
                   </Behavioral_Elements.Use_Cases.Include.base>
                 </Behavioral_Elements.Use_Cases.Include>
-                <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.196" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff2">
+                <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.197" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff2">
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.ModelElement.namespace>
                     <Foundation.Core.Namespace xmi.idref="xmi.192"/>
@@ -2721,7 +2727,7 @@
                     <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.123"/>
                   </Behavioral_Elements.Use_Cases.Include.base>
                 </Behavioral_Elements.Use_Cases.Include>
-                <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.197" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff1">
+                <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.198" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff1">
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.ModelElement.namespace>
                     <Foundation.Core.Namespace xmi.idref="xmi.192"/>
@@ -2745,7 +2751,7 @@
                     <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.127"/>
                   </Behavioral_Elements.Use_Cases.Include.base>
                 </Behavioral_Elements.Use_Cases.Include>
-                <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.198" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7fef">
+                <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.199" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7fef">
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.ModelElement.namespace>
                     <Foundation.Core.Namespace xmi.idref="xmi.192"/>
@@ -2757,9 +2763,21 @@
                     <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.123"/>
                   </Behavioral_Elements.Use_Cases.Include.base>
                 </Behavioral_Elements.Use_Cases.Include>
+                <Behavioral_Elements.Use_Cases.Include xmi.id="xmi.196" xmi.uuid="-64--88-1-1--1cdb4a0f:10732ec5167:-7ffe">
+                  <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
+                  <Foundation.Core.ModelElement.namespace>
+                    <Foundation.Core.Namespace xmi.idref="xmi.192"/>
+                  </Foundation.Core.ModelElement.namespace>
+                  <Behavioral_Elements.Use_Cases.Include.addition>
+                    <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.139"/>
+                  </Behavioral_Elements.Use_Cases.Include.addition>
+                  <Behavioral_Elements.Use_Cases.Include.base>
+                    <Behavioral_Elements.Use_Cases.UseCase xmi.idref="xmi.131"/>
+                  </Behavioral_Elements.Use_Cases.Include.base>
+                </Behavioral_Elements.Use_Cases.Include>
               </Foundation.Core.Namespace.ownedElement>
             </Model_Management.Package>
-            <Foundation.Core.Association xmi.id="xmi.200" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7feb">
+            <Foundation.Core.Association xmi.id="xmi.201" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7feb">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -2769,7 +2787,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.201" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fea">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.202" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fea">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2781,13 +2799,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.200"/>
+                    <Foundation.Core.Association xmi.idref="xmi.201"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.202" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe9">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.203" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe9">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2799,7 +2817,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.200"/>
+                    <Foundation.Core.Association xmi.idref="xmi.201"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.193"/>
@@ -2807,7 +2825,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.203" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe2">
+            <Foundation.Core.Association xmi.id="xmi.204" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe2">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -2817,7 +2835,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.204" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe1">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.205" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe1">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2829,13 +2847,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.203"/>
+                    <Foundation.Core.Association xmi.idref="xmi.204"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.110"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.205" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe0">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.206" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fe0">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2847,7 +2865,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.203"/>
+                    <Foundation.Core.Association xmi.idref="xmi.204"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.78"/>
@@ -2855,7 +2873,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.206" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fdf">
+            <Foundation.Core.Association xmi.id="xmi.207" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fdf">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -2865,7 +2883,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.207" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fde">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.208" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fde">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2877,13 +2895,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.206"/>
+                    <Foundation.Core.Association xmi.idref="xmi.207"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.110"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.208" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fdd">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.209" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fdd">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2895,7 +2913,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.206"/>
+                    <Foundation.Core.Association xmi.idref="xmi.207"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.86"/>
@@ -2903,7 +2921,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.209" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fcb">
+            <Foundation.Core.Association xmi.id="xmi.210" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fcb">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -2913,7 +2931,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.210" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fca">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.211" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fca">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2925,13 +2943,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.209"/>
+                    <Foundation.Core.Association xmi.idref="xmi.210"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.158"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.211" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc9">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.212" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc9">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2943,7 +2961,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.209"/>
+                    <Foundation.Core.Association xmi.idref="xmi.210"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.80"/>
@@ -2951,7 +2969,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.212" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc8">
+            <Foundation.Core.Association xmi.id="xmi.213" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc8">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -2961,7 +2979,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.213" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc7">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.214" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc7">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2973,13 +2991,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.212"/>
+                    <Foundation.Core.Association xmi.idref="xmi.213"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.214" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc6">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.215" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc6">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -2991,7 +3009,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.212"/>
+                    <Foundation.Core.Association xmi.idref="xmi.213"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.82"/>
@@ -2999,7 +3017,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.215" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc5">
+            <Foundation.Core.Association xmi.id="xmi.216" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc5">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3009,7 +3027,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.216" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc4">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.217" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc4">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3021,13 +3039,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.215"/>
+                    <Foundation.Core.Association xmi.idref="xmi.216"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.217" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc3">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.218" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc3">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3039,7 +3057,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.215"/>
+                    <Foundation.Core.Association xmi.idref="xmi.216"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.84"/>
@@ -3047,7 +3065,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.218" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc0">
+            <Foundation.Core.Association xmi.id="xmi.219" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fc0">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3057,7 +3075,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.219" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbf">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.220" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbf">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3069,13 +3087,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.218"/>
+                    <Foundation.Core.Association xmi.idref="xmi.219"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.110"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.220" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbe">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.221" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbe">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3087,7 +3105,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.218"/>
+                    <Foundation.Core.Association xmi.idref="xmi.219"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.88"/>
@@ -3095,7 +3113,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.221" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbd">
+            <Foundation.Core.Association xmi.id="xmi.222" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbd">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3105,7 +3123,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.222" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbc">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.223" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbc">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3117,13 +3135,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.221"/>
+                    <Foundation.Core.Association xmi.idref="xmi.222"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.110"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.223" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbb">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.224" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fbb">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3135,7 +3153,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.221"/>
+                    <Foundation.Core.Association xmi.idref="xmi.222"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.90"/>
@@ -3143,7 +3161,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.224" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb8">
+            <Foundation.Core.Association xmi.id="xmi.225" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb8">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3153,7 +3171,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.225" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb7">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.226" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb7">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3165,13 +3183,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.224"/>
+                    <Foundation.Core.Association xmi.idref="xmi.225"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.158"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.226" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb6">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.227" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb6">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3183,7 +3201,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.224"/>
+                    <Foundation.Core.Association xmi.idref="xmi.225"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.92"/>
@@ -3191,7 +3209,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.227" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb4">
+            <Foundation.Core.Association xmi.id="xmi.228" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb4">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3201,7 +3219,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.228" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb3">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.229" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb3">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3213,13 +3231,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.227"/>
+                    <Foundation.Core.Association xmi.idref="xmi.228"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.229" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb2">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.230" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fb2">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3231,7 +3249,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.227"/>
+                    <Foundation.Core.Association xmi.idref="xmi.228"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.94"/>
@@ -3239,7 +3257,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.230" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7faf">
+            <Foundation.Core.Association xmi.id="xmi.231" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7faf">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3249,7 +3267,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.231" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fae">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.232" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fae">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3261,13 +3279,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.230"/>
+                    <Foundation.Core.Association xmi.idref="xmi.231"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.232" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fad">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.233" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fad">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3279,7 +3297,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.230"/>
+                    <Foundation.Core.Association xmi.idref="xmi.231"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.96"/>
@@ -3287,7 +3305,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.233" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fa0">
+            <Foundation.Core.Association xmi.id="xmi.234" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7fa0">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3297,7 +3315,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.234" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9f">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.235" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9f">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3309,13 +3327,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.233"/>
+                    <Foundation.Core.Association xmi.idref="xmi.234"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.113"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.235" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9e">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.236" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9e">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3327,7 +3345,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.233"/>
+                    <Foundation.Core.Association xmi.idref="xmi.234"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.75"/>
@@ -3335,7 +3353,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.236" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9d">
+            <Foundation.Core.Association xmi.id="xmi.237" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9d">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3345,7 +3363,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.237" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9c">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.238" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9c">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3357,13 +3375,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.236"/>
+                    <Foundation.Core.Association xmi.idref="xmi.237"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.113"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.238" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9b">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.239" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9b">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3375,7 +3393,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.236"/>
+                    <Foundation.Core.Association xmi.idref="xmi.237"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.76"/>
@@ -3383,7 +3401,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.239" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9a">
+            <Foundation.Core.Association xmi.id="xmi.240" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f9a">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3393,7 +3411,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.240" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f99">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.241" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f99">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3405,13 +3423,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.239"/>
+                    <Foundation.Core.Association xmi.idref="xmi.240"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.113"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.241" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f98">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.242" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f98">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3423,7 +3441,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.239"/>
+                    <Foundation.Core.Association xmi.idref="xmi.240"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.74"/>
@@ -3431,7 +3449,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.242" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f97">
+            <Foundation.Core.Association xmi.id="xmi.243" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f97">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3441,7 +3459,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.243" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f96">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.244" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f96">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3453,13 +3471,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.242"/>
+                    <Foundation.Core.Association xmi.idref="xmi.243"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.113"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.244" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f95">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.245" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f95">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3471,7 +3489,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.242"/>
+                    <Foundation.Core.Association xmi.idref="xmi.243"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.73"/>
@@ -3479,7 +3497,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.245" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f94">
+            <Foundation.Core.Association xmi.id="xmi.246" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f94">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3489,7 +3507,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.246" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f93">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.247" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f93">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3501,13 +3519,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.245"/>
+                    <Foundation.Core.Association xmi.idref="xmi.246"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.65"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.247" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f92">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.248" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f92">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3519,7 +3537,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.245"/>
+                    <Foundation.Core.Association xmi.idref="xmi.246"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.113"/>
@@ -3527,7 +3545,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.248" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f7d">
+            <Foundation.Core.Association xmi.id="xmi.249" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f7d">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3537,7 +3555,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.249" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f7c">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.250" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f7c">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3549,13 +3567,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.248"/>
+                    <Foundation.Core.Association xmi.idref="xmi.249"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.109"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.250" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f7b">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.251" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f7b">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3567,7 +3585,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.248"/>
+                    <Foundation.Core.Association xmi.idref="xmi.249"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.49"/>
@@ -3575,7 +3593,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.251" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f77">
+            <Foundation.Core.Association xmi.id="xmi.252" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f77">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3585,7 +3603,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.252" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f76">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.253" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f76">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3597,13 +3615,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.251"/>
+                    <Foundation.Core.Association xmi.idref="xmi.252"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.109"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.253" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f75">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.254" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f75">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3615,7 +3633,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.251"/>
+                    <Foundation.Core.Association xmi.idref="xmi.252"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.56"/>
@@ -3623,7 +3641,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Behavioral_Elements.Use_Cases.Actor xmi.id="xmi.254" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f74">
+            <Behavioral_Elements.Use_Cases.Actor xmi.id="xmi.255" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f74">
               <Foundation.Core.ModelElement.name>Secrétaire écoles</Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3633,7 +3651,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
             </Behavioral_Elements.Use_Cases.Actor>
-            <Foundation.Core.Association xmi.id="xmi.255" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f73">
+            <Foundation.Core.Association xmi.id="xmi.256" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f73">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3643,7 +3661,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.256" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f72">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.257" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f72">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3655,13 +3673,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.255"/>
+                    <Foundation.Core.Association xmi.idref="xmi.256"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
-                    <Foundation.Core.Classifier xmi.idref="xmi.254"/>
+                    <Foundation.Core.Classifier xmi.idref="xmi.255"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.257" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f71">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.258" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f71">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3673,7 +3691,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.255"/>
+                    <Foundation.Core.Association xmi.idref="xmi.256"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.55"/>
@@ -3681,7 +3699,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.258" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f70">
+            <Foundation.Core.Association xmi.id="xmi.259" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f70">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3691,7 +3709,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.259" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6f">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.260" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6f">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3703,13 +3721,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.258"/>
+                    <Foundation.Core.Association xmi.idref="xmi.259"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
-                    <Foundation.Core.Classifier xmi.idref="xmi.254"/>
+                    <Foundation.Core.Classifier xmi.idref="xmi.255"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.260" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6e">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.261" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6e">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3721,7 +3739,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.258"/>
+                    <Foundation.Core.Association xmi.idref="xmi.259"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.54"/>
@@ -3729,7 +3747,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.261" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6d">
+            <Foundation.Core.Association xmi.id="xmi.262" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6d">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3739,7 +3757,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.262" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6c">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.263" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6c">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3751,13 +3769,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.261"/>
+                    <Foundation.Core.Association xmi.idref="xmi.262"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.263" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6b">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.264" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f6b">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3769,7 +3787,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.261"/>
+                    <Foundation.Core.Association xmi.idref="xmi.262"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.51"/>
@@ -3777,7 +3795,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.264" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f63">
+            <Foundation.Core.Association xmi.id="xmi.265" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f63">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3787,7 +3805,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.265" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f62">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.266" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f62">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3799,13 +3817,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.264"/>
+                    <Foundation.Core.Association xmi.idref="xmi.265"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.266" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f61">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.267" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f61">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3817,7 +3835,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.264"/>
+                    <Foundation.Core.Association xmi.idref="xmi.265"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.52"/>
@@ -3825,7 +3843,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.267" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5f">
+            <Foundation.Core.Association xmi.id="xmi.268" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5f">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3835,7 +3853,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.268" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5e">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.269" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5e">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3847,13 +3865,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.267"/>
+                    <Foundation.Core.Association xmi.idref="xmi.268"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.111"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.269" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5d">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.270" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5d">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3865,7 +3883,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.267"/>
+                    <Foundation.Core.Association xmi.idref="xmi.268"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.6"/>
@@ -3873,7 +3891,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.270" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5b">
+            <Foundation.Core.Association xmi.id="xmi.271" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5b">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3883,7 +3901,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.271" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5a">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.272" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f5a">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3895,13 +3913,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.270"/>
+                    <Foundation.Core.Association xmi.idref="xmi.271"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.111"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.272" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f59">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.273" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f59">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3913,7 +3931,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.270"/>
+                    <Foundation.Core.Association xmi.idref="xmi.271"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.8"/>
@@ -3921,7 +3939,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.273" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f56">
+            <Foundation.Core.Association xmi.id="xmi.274" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f56">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3931,7 +3949,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.274" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f55">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.275" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f55">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3943,13 +3961,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.273"/>
+                    <Foundation.Core.Association xmi.idref="xmi.274"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.111"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.275" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f54">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.276" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f54">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3961,7 +3979,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.273"/>
+                    <Foundation.Core.Association xmi.idref="xmi.274"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.11"/>
@@ -3969,7 +3987,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.276" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f4a">
+            <Foundation.Core.Association xmi.id="xmi.277" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f4a">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -3979,7 +3997,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.277" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f49">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.278" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f49">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -3991,13 +4009,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.276"/>
+                    <Foundation.Core.Association xmi.idref="xmi.277"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.278" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f48">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.279" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f48">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4009,7 +4027,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.276"/>
+                    <Foundation.Core.Association xmi.idref="xmi.277"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.18"/>
@@ -4017,7 +4035,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.279" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f46">
+            <Foundation.Core.Association xmi.id="xmi.280" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f46">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4027,7 +4045,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.280" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f45">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.281" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f45">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4039,13 +4057,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.279"/>
+                    <Foundation.Core.Association xmi.idref="xmi.280"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.281" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f44">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.282" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f44">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4057,7 +4075,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.279"/>
+                    <Foundation.Core.Association xmi.idref="xmi.280"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.20"/>
@@ -4065,7 +4083,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.282" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f41">
+            <Foundation.Core.Association xmi.id="xmi.283" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f41">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4075,7 +4093,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.283" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f40">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.284" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f40">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4087,13 +4105,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.282"/>
+                    <Foundation.Core.Association xmi.idref="xmi.283"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.284" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f3f">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.285" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f3f">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4105,7 +4123,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.282"/>
+                    <Foundation.Core.Association xmi.idref="xmi.283"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.22"/>
@@ -4113,7 +4131,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.285" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f39">
+            <Foundation.Core.Association xmi.id="xmi.286" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f39">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4123,7 +4141,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.286" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f38">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.287" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f38">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4135,13 +4153,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.285"/>
+                    <Foundation.Core.Association xmi.idref="xmi.286"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.287" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f37">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.288" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f37">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4153,7 +4171,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.285"/>
+                    <Foundation.Core.Association xmi.idref="xmi.286"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.58"/>
@@ -4161,7 +4179,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.288" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f36">
+            <Foundation.Core.Association xmi.id="xmi.289" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f36">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4171,7 +4189,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.289" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f35">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.290" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f35">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4183,13 +4201,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.288"/>
+                    <Foundation.Core.Association xmi.idref="xmi.289"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.290" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f34">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.291" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f34">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4201,7 +4219,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.288"/>
+                    <Foundation.Core.Association xmi.idref="xmi.289"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.72"/>
@@ -4209,7 +4227,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.291" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f33">
+            <Foundation.Core.Association xmi.id="xmi.292" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f33">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4219,7 +4237,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.292" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f32">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.293" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f32">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4231,13 +4249,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.291"/>
+                    <Foundation.Core.Association xmi.idref="xmi.292"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.293" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f31">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.294" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f31">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4249,7 +4267,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.291"/>
+                    <Foundation.Core.Association xmi.idref="xmi.292"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.70"/>
@@ -4257,7 +4275,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.294" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f30">
+            <Foundation.Core.Association xmi.id="xmi.295" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f30">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4267,7 +4285,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.295" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2f">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.296" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2f">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4279,13 +4297,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.294"/>
+                    <Foundation.Core.Association xmi.idref="xmi.295"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.296" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2e">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.297" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2e">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4297,7 +4315,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.294"/>
+                    <Foundation.Core.Association xmi.idref="xmi.295"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.13"/>
@@ -4305,7 +4323,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.297" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2d">
+            <Foundation.Core.Association xmi.id="xmi.298" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2d">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4315,7 +4333,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.298" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2c">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.299" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2c">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4327,13 +4345,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.297"/>
+                    <Foundation.Core.Association xmi.idref="xmi.298"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.299" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2b">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.300" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2b">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4345,7 +4363,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.297"/>
+                    <Foundation.Core.Association xmi.idref="xmi.298"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.16"/>
@@ -4353,7 +4371,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.300" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2a">
+            <Foundation.Core.Association xmi.id="xmi.301" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f2a">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4363,7 +4381,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.301" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f29">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.302" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f29">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4375,13 +4393,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.300"/>
+                    <Foundation.Core.Association xmi.idref="xmi.301"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.302" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f28">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.303" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f28">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4393,7 +4411,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.300"/>
+                    <Foundation.Core.Association xmi.idref="xmi.301"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.24"/>
@@ -4401,7 +4419,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.303" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f27">
+            <Foundation.Core.Association xmi.id="xmi.304" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f27">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4411,7 +4429,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.304" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f26">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.305" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f26">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4423,13 +4441,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.303"/>
+                    <Foundation.Core.Association xmi.idref="xmi.304"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.305" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f25">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.306" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f25">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4441,7 +4459,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.303"/>
+                    <Foundation.Core.Association xmi.idref="xmi.304"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.26"/>
@@ -4449,7 +4467,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.306" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f23">
+            <Foundation.Core.Association xmi.id="xmi.307" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f23">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4459,7 +4477,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.307" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f22">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.308" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f22">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4471,13 +4489,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.306"/>
+                    <Foundation.Core.Association xmi.idref="xmi.307"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.308" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f21">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.309" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f21">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4489,7 +4507,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.306"/>
+                    <Foundation.Core.Association xmi.idref="xmi.307"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.28"/>
@@ -4497,7 +4515,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.309" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f1c">
+            <Foundation.Core.Association xmi.id="xmi.310" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f1c">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4507,7 +4525,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.310" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f1b">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.311" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f1b">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4519,13 +4537,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.309"/>
+                    <Foundation.Core.Association xmi.idref="xmi.310"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.311" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f1a">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.312" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f1a">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4537,7 +4555,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.309"/>
+                    <Foundation.Core.Association xmi.idref="xmi.310"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.31"/>
@@ -4545,7 +4563,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.312" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f19">
+            <Foundation.Core.Association xmi.id="xmi.313" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f19">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4555,7 +4573,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.313" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f18">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.314" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f18">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4567,13 +4585,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.312"/>
+                    <Foundation.Core.Association xmi.idref="xmi.313"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.314" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f17">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.315" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f17">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4585,7 +4603,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.312"/>
+                    <Foundation.Core.Association xmi.idref="xmi.313"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.33"/>
@@ -4593,7 +4611,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.315" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f11">
+            <Foundation.Core.Association xmi.id="xmi.316" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f11">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4603,7 +4621,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.316" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f10">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.317" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f10">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4615,13 +4633,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.315"/>
+                    <Foundation.Core.Association xmi.idref="xmi.316"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.317" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0f">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.318" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0f">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4633,7 +4651,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.315"/>
+                    <Foundation.Core.Association xmi.idref="xmi.316"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.35"/>
@@ -4641,7 +4659,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.318" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0e">
+            <Foundation.Core.Association xmi.id="xmi.319" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0e">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4651,7 +4669,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.319" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0d">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.320" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0d">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4663,13 +4681,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.318"/>
+                    <Foundation.Core.Association xmi.idref="xmi.319"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.320" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0c">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.321" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0c">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4681,7 +4699,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.318"/>
+                    <Foundation.Core.Association xmi.idref="xmi.319"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.37"/>
@@ -4689,7 +4707,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.321" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0a">
+            <Foundation.Core.Association xmi.id="xmi.322" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f0a">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4699,7 +4717,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.322" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f09">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.323" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f09">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4711,13 +4729,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.321"/>
+                    <Foundation.Core.Association xmi.idref="xmi.322"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.323" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f08">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.324" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f08">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4729,7 +4747,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.321"/>
+                    <Foundation.Core.Association xmi.idref="xmi.322"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.43"/>
@@ -4737,7 +4755,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.324" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f06">
+            <Foundation.Core.Association xmi.id="xmi.325" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f06">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4747,7 +4765,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.325" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f05">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.326" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f05">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4759,13 +4777,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.324"/>
+                    <Foundation.Core.Association xmi.idref="xmi.325"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.326" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f04">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.327" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f04">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4777,7 +4795,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.324"/>
+                    <Foundation.Core.Association xmi.idref="xmi.325"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.38"/>
@@ -4785,7 +4803,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.327" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f01">
+            <Foundation.Core.Association xmi.id="xmi.328" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f01">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4795,7 +4813,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.328" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f00">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.329" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f00">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4807,13 +4825,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.327"/>
+                    <Foundation.Core.Association xmi.idref="xmi.328"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.112"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.329" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7eff">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.330" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7eff">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4825,7 +4843,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.327"/>
+                    <Foundation.Core.Association xmi.idref="xmi.328"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.44"/>
@@ -4833,7 +4851,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.330" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7efb">
+            <Foundation.Core.Association xmi.id="xmi.331" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7efb">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4843,7 +4861,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.331" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7efa">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.332" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7efa">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4855,13 +4873,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.330"/>
+                    <Foundation.Core.Association xmi.idref="xmi.331"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.332" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef9">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.333" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef9">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4873,7 +4891,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.330"/>
+                    <Foundation.Core.Association xmi.idref="xmi.331"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.41"/>
@@ -4881,7 +4899,7 @@
                 </Foundation.Core.AssociationEnd>
               </Foundation.Core.Association.connection>
             </Foundation.Core.Association>
-            <Foundation.Core.Association xmi.id="xmi.333" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef8">
+            <Foundation.Core.Association xmi.id="xmi.334" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef8">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4891,7 +4909,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.334" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef7">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.335" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef7">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4903,13 +4921,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.333"/>
+                    <Foundation.Core.Association xmi.idref="xmi.334"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.335" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef6">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.336" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7ef6">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4921,7 +4939,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.333"/>
+                    <Foundation.Core.Association xmi.idref="xmi.334"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.47"/>
@@ -4953,7 +4971,7 @@
                 <Foundation.Core.ModelElement xmi.idref="xmi.107"/>
               </Foundation.Core.Dependency.supplier>
             </Foundation.Core.Dependency>
-            <Foundation.Core.Association xmi.id="xmi.336" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff7">
+            <Foundation.Core.Association xmi.id="xmi.337" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff7">
               <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
               <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
               <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
@@ -4963,7 +4981,7 @@
                 <Foundation.Core.Namespace xmi.idref="xmi.1"/>
               </Foundation.Core.ModelElement.namespace>
               <Foundation.Core.Association.connection>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.337" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff6">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.338" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff6">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4975,13 +4993,13 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.336"/>
+                    <Foundation.Core.Association xmi.idref="xmi.337"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.97"/>
                   </Foundation.Core.AssociationEnd.type>
                 </Foundation.Core.AssociationEnd>
-                <Foundation.Core.AssociationEnd xmi.id="xmi.338" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff5">
+                <Foundation.Core.AssociationEnd xmi.id="xmi.339" xmi.uuid="-64--88-1-1-5d252674:1072e7d46a5:-7ff5">
                   <Foundation.Core.ModelElement.visibility xmi.value="public"/>
                   <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                   <Foundation.Core.AssociationEnd.isNavigable xmi.value="true"/>
@@ -4993,7 +5011,7 @@
                   </Foundation.Core.AssociationEnd.multiplicity>
                   <Foundation.Core.AssociationEnd.changeability xmi.value="changeable"/>
                   <Foundation.Core.AssociationEnd.association>
-                    <Foundation.Core.Association xmi.idref="xmi.336"/>
+                    <Foundation.Core.Association xmi.idref="xmi.337"/>
                   </Foundation.Core.AssociationEnd.association>
                   <Foundation.Core.AssociationEnd.type>
                     <Foundation.Core.Classifier xmi.idref="xmi.108"/>
@@ -6636,8 +6654,8 @@
           textsize="10"
         >Effectuer des statistiques</text>
         <text name="Fig0.3"
-          x="-31"
-          y="-6"
+          x="0"
+          y="0"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -6652,10 +6670,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="-31"
-                  y="24" />
-          <lineto x="69"
-                  y="24" />
+          <moveto x="0"
+                  y="30" />
+          <lineto x="100"
+                  y="30" />
         </path>
         <group name="Fig0.5"
              description="org.tigris.gef.presentation.FigGroup[]"
@@ -6668,8 +6686,8 @@
           </private>
           
           <rectangle name="Fig0.5.0"
-            x="17"
-            y="27"
+            x="48"
+            y="33"
             width="4"
             height="4"
             fill="0"
@@ -10276,7 +10294,7 @@
           name="Application"
     >
       <group name="Fig0"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[168, 113, 132, 60]"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[168, 33, 132, 60]"
            href="-64--88-1-1--6d7bb041:1070a48394e:-7fed"
            fill="1"
            fillcolor="-1"
@@ -10288,7 +10306,7 @@
         
         <ellipse name="Fig0.0"
           x="234"
-          y="143"
+          y="63"
           rx="66"
           ry="30"
           fill="1"
@@ -10298,7 +10316,7 @@
         />
         <ellipse name="Fig0.1"
           x="234"
-          y="143"
+          y="63"
           rx="66"
           ry="30"
           fill="1"
@@ -10308,7 +10326,7 @@
         />
         <text name="Fig0.2"
           x="184"
-          y="135"
+          y="55"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -10318,7 +10336,7 @@
         >Utiliser l&apos;application</text>
         <text name="Fig0.3"
           x="0"
-          y="0"
+          y="-80"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -10333,10 +10351,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="-40"
-                  y="79" />
-          <lineto x="60"
-                  y="79" />
+          <moveto x="0"
+                  y="-50" />
+          <lineto x="100"
+                  y="-50" />
         </path>
         <group name="Fig0.5"
              description="org.tigris.gef.presentation.FigGroup[]"
@@ -10349,8 +10367,8 @@
           </private>
           
           <rectangle name="Fig0.5.0"
-            x="8"
-            y="82"
+            x="48"
+            y="-47"
             width="4"
             height="4"
             fill="0"
@@ -10361,7 +10379,7 @@
         </group>
       </group>
       <group name="Fig1"
-           description="org.argouml.uml.diagram.use_case.ui.FigActor[24, 136, 105, 65]"
+           description="org.argouml.uml.diagram.use_case.ui.FigActor[24, 56, 105, 65]"
            href="-64--88-1-1-7e43543:107095d7f12:-7ffd"
            fill="1"
            fillcolor="-1"
@@ -10373,7 +10391,7 @@
         
         <rectangle name="Fig1.0"
           x="69"
-          y="136"
+          y="56"
           width="15"
           height="60"
           fill="1"
@@ -10383,7 +10401,7 @@
         />
         <text name="Fig1.1"
           x="24"
-          y="186"
+          y="106"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -10393,7 +10411,7 @@
         >Utilisateur générique</text>
         <ellipse name="Fig1.2"
           x="76"
-          y="143"
+          y="63"
           rx="7"
           ry="7"
           fill="1"
@@ -10409,9 +10427,9 @@
           strokecolor="-16777216"
         >
           <moveto x="76"
-                  y="151" />
+                  y="71" />
           <lineto x="76"
-                  y="166" />
+                  y="86" />
         </path>
         <path name="Fig1.4"
           description="org.tigris.gef.presentation.FigLine"
@@ -10421,9 +10439,9 @@
           strokecolor="-16777216"
         >
           <moveto x="66"
-                  y="156" />
+                  y="76" />
           <lineto x="86"
-                  y="156" />
+                  y="76" />
         </path>
         <path name="Fig1.5"
           description="org.tigris.gef.presentation.FigLine"
@@ -10433,9 +10451,9 @@
           strokecolor="-16777216"
         >
           <moveto x="76"
-                  y="166" />
+                  y="86" />
           <lineto x="71"
-                  y="181" />
+                  y="101" />
         </path>
         <path name="Fig1.6"
           description="org.tigris.gef.presentation.FigLine"
@@ -10445,13 +10463,13 @@
           strokecolor="-16777216"
         >
           <moveto x="76"
-                  y="166" />
+                  y="86" />
           <lineto x="81"
-                  y="181" />
+                  y="101" />
         </path>
       </group>
-      <group name="Fig3"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[400, 112, 176, 60]"
+      <group name="Fig2"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[400, 32, 176, 60]"
            href="-64--88-1-1--4f086ac1:107097321cd:-7ffc"
            fill="1"
            fillcolor="-1"
@@ -10461,9 +10479,9 @@
         <private>
         </private>
         
-        <ellipse name="Fig3.0"
+        <ellipse name="Fig2.0"
           x="488"
-          y="142"
+          y="62"
           rx="88"
           ry="30"
           fill="1"
@@ -10471,9 +10489,9 @@
           stroke="1"
           strokecolor="-16777216"
         />
-        <ellipse name="Fig3.1"
+        <ellipse name="Fig2.1"
           x="488"
-          y="142"
+          y="62"
           rx="88"
           ry="30"
           fill="1"
@@ -10481,9 +10499,9 @@
           stroke="1"
           strokecolor="-16777216"
         />
-        <text name="Fig3.2"
+        <text name="Fig2.2"
           x="422"
-          y="134"
+          y="54"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -10491,9 +10509,94 @@
           font="Dialog"
           textsize="10"
         >Ouvrir/Fermer une session</text>
+        <text name="Fig2.3"
+          x="0"
+          y="-80"
+          fill="0"
+          fillcolor="-1"
+          stroke="0"
+          strokecolor="-16777216"
+          font="Dialog"
+          textsize="10"
+        ></text>
+        <path name="Fig2.4"
+          description="org.tigris.gef.presentation.FigLine"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="0"
+                  y="-50" />
+          <lineto x="100"
+                  y="-50" />
+        </path>
+        <group name="Fig2.5"
+             description="org.tigris.gef.presentation.FigGroup[]"
+             fill="0"
+             fillcolor="-1"
+             stroke="0"
+             strokecolor="-16777216"
+        >
+          <private>
+          </private>
+          
+          <rectangle name="Fig2.5.0"
+            x="48"
+            y="-47"
+            width="4"
+            height="4"
+            fill="0"
+            fillcolor="-1"
+            stroke="0"
+            strokecolor="-16777216"
+          />
+        </group>
+      </group>
+      <group name="Fig3"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[168, 112, 174, 60]"
+           href="-64--88-1-1--5639f880:10709a5930c:-7ff9"
+           fill="1"
+           fillcolor="-1"
+           stroke="1"
+           strokecolor="-16777216"
+      >
+        <private>
+        </private>
+        
+        <ellipse name="Fig3.0"
+          x="255"
+          y="142"
+          rx="87"
+          ry="30"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <ellipse name="Fig3.1"
+          x="255"
+          y="142"
+          rx="87"
+          ry="30"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <text name="Fig3.2"
+          x="189"
+          y="134"
+          fill="0"
+          fillcolor="-1"
+          stroke="0"
+          strokecolor="-16777216"
+          font="Dialog"
+          textsize="10"
+        >Modifier son mot de passe</text>
         <text name="Fig3.3"
           x="0"
-          y="0"
+          y="-80"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -10508,10 +10611,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="400"
-                  y="142" />
-          <lineto x="500"
-                  y="142" />
+          <moveto x="0"
+                  y="-50" />
+          <lineto x="100"
+                  y="-50" />
         </path>
         <group name="Fig3.5"
              description="org.tigris.gef.presentation.FigGroup[]"
@@ -10524,8 +10627,8 @@
           </private>
           
           <rectangle name="Fig3.5.0"
-            x="448"
-            y="145"
+            x="48"
+            y="-47"
             width="4"
             height="4"
             fill="0"
@@ -10535,9 +10638,99 @@
           />
         </group>
       </group>
+      <group name="Fig4"
+           description="org.argouml.uml.diagram.use_case.ui.FigActor[40, 336, 75, 65]"
+           href="-64--88-1-1--5639f880:10709a5930c:-7ffd"
+           fill="1"
+           fillcolor="-1"
+           stroke="1"
+           strokecolor="-16777216"
+      >
+        <private>
+        </private>
+        
+        <rectangle name="Fig4.0"
+          x="70"
+          y="336"
+          width="15"
+          height="60"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <text name="Fig4.1"
+          x="40"
+          y="386"
+          fill="0"
+          fillcolor="-1"
+          stroke="0"
+          strokecolor="-16777216"
+          font="Dialog"
+          textsize="10"
+        >Administrateur</text>
+        <ellipse name="Fig4.2"
+          x="77"
+          y="343"
+          rx="7"
+          ry="7"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <path name="Fig4.3"
+          description="org.tigris.gef.presentation.FigLine"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="77"
+                  y="351" />
+          <lineto x="77"
+                  y="366" />
+        </path>
+        <path name="Fig4.4"
+          description="org.tigris.gef.presentation.FigLine"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="67"
+                  y="356" />
+          <lineto x="87"
+                  y="356" />
+        </path>
+        <path name="Fig4.5"
+          description="org.tigris.gef.presentation.FigLine"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="77"
+                  y="366" />
+          <lineto x="72"
+                  y="381" />
+        </path>
+        <path name="Fig4.6"
+          description="org.tigris.gef.presentation.FigLine"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="77"
+                  y="366" />
+          <lineto x="82"
+                  y="381" />
+        </path>
+      </group>
       <group name="Fig5"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[168, 192, 174, 60]"
-           href="-64--88-1-1--5639f880:10709a5930c:-7ff9"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[197, 416, 198, 60]"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fe5"
            fill="1"
            fillcolor="-1"
            stroke="1"
@@ -10547,9 +10740,9 @@
         </private>
         
         <ellipse name="Fig5.0"
-          x="255"
-          y="222"
-          rx="87"
+          x="296"
+          y="446"
+          rx="99"
           ry="30"
           fill="1"
           fillcolor="-1"
@@ -10557,9 +10750,9 @@
           strokecolor="-16777216"
         />
         <ellipse name="Fig5.1"
-          x="255"
-          y="222"
-          rx="87"
+          x="296"
+          y="446"
+          rx="99"
           ry="30"
           fill="1"
           fillcolor="-1"
@@ -10567,18 +10760,18 @@
           strokecolor="-16777216"
         />
         <text name="Fig5.2"
-          x="189"
-          y="214"
+          x="221"
+          y="438"
           fill="0"
           fillcolor="-1"
           stroke="0"
           strokecolor="-16777216"
           font="Dialog"
           textsize="10"
-        >Modifier son mot de passe</text>
+        >Visualiser la liste des comptes</text>
         <text name="Fig5.3"
-          x="0"
-          y="0"
+          x="45"
+          y="-16"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -10593,10 +10786,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="168"
-                  y="222" />
-          <lineto x="268"
-                  y="222" />
+          <moveto x="45"
+                  y="14" />
+          <lineto x="145"
+                  y="14" />
         </path>
         <group name="Fig5.5"
              description="org.tigris.gef.presentation.FigGroup[]"
@@ -10609,8 +10802,93 @@
           </private>
           
           <rectangle name="Fig5.5.0"
-            x="216"
-            y="225"
+            x="93"
+            y="17"
+            width="4"
+            height="4"
+            fill="0"
+            fillcolor="-1"
+            stroke="0"
+            strokecolor="-16777216"
+          />
+        </group>
+      </group>
+      <group name="Fig6"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[234, 355, 124, 60]"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fea"
+           fill="1"
+           fillcolor="-1"
+           stroke="1"
+           strokecolor="-16777216"
+      >
+        <private>
+        </private>
+        
+        <ellipse name="Fig6.0"
+          x="296"
+          y="385"
+          rx="62"
+          ry="30"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <ellipse name="Fig6.1"
+          x="296"
+          y="385"
+          rx="62"
+          ry="30"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <text name="Fig6.2"
+          x="250"
+          y="377"
+          fill="0"
+          fillcolor="-1"
+          stroke="0"
+          strokecolor="-16777216"
+          font="Dialog"
+          textsize="10"
+        >Ajouter un compte</text>
+        <text name="Fig6.3"
+          x="57"
+          y="91"
+          fill="0"
+          fillcolor="-1"
+          stroke="0"
+          strokecolor="-16777216"
+          font="Dialog"
+          textsize="10"
+        ></text>
+        <path name="Fig6.4"
+          description="org.tigris.gef.presentation.FigLine"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="57"
+                  y="121" />
+          <lineto x="157"
+                  y="121" />
+        </path>
+        <group name="Fig6.5"
+             description="org.tigris.gef.presentation.FigGroup[]"
+             fill="0"
+             fillcolor="-1"
+             stroke="0"
+             strokecolor="-16777216"
+        >
+          <private>
+          </private>
+          
+          <rectangle name="Fig6.5.0"
+            x="105"
+            y="124"
             width="4"
             height="4"
             fill="0"
@@ -10621,8 +10899,8 @@
         </group>
       </group>
       <group name="Fig7"
-           description="org.argouml.uml.diagram.use_case.ui.FigActor[40, 336, 75, 65]"
-           href="-64--88-1-1--5639f880:10709a5930c:-7ffd"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[225, 480, 142, 60]"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fe8"
            fill="1"
            fillcolor="-1"
            stroke="1"
@@ -10631,48 +10909,46 @@
         <private>
         </private>
         
-        <rectangle name="Fig7.0"
-          x="70"
-          y="336"
-          width="15"
-          height="60"
+        <ellipse name="Fig7.0"
+          x="296"
+          y="510"
+          rx="71"
+          ry="30"
           fill="1"
           fillcolor="-1"
           stroke="1"
           strokecolor="-16777216"
         />
-        <text name="Fig7.1"
-          x="40"
-          y="386"
+        <ellipse name="Fig7.1"
+          x="296"
+          y="510"
+          rx="71"
+          ry="30"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <text name="Fig7.2"
+          x="243"
+          y="502"
           fill="0"
           fillcolor="-1"
           stroke="0"
           strokecolor="-16777216"
           font="Dialog"
           textsize="10"
-        >Administrateur</text>
-        <ellipse name="Fig7.2"
-          x="77"
-          y="343"
-          rx="7"
-          ry="7"
-          fill="1"
+        >Supprimer un compte</text>
+        <text name="Fig7.3"
+          x="57"
+          y="-16"
+          fill="0"
           fillcolor="-1"
-          stroke="1"
+          stroke="0"
           strokecolor="-16777216"
-        />
-        <path name="Fig7.3"
-          description="org.tigris.gef.presentation.FigLine"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="77"
-                  y="351" />
-          <lineto x="77"
-                  y="366" />
-        </path>
+          font="Dialog"
+          textsize="10"
+        ></text>
         <path name="Fig7.4"
           description="org.tigris.gef.presentation.FigLine"
           fill="1"
@@ -10680,39 +10956,36 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="67"
-                  y="356" />
-          <lineto x="87"
-                  y="356" />
+          <moveto x="57"
+                  y="14" />
+          <lineto x="157"
+                  y="14" />
         </path>
-        <path name="Fig7.5"
-          description="org.tigris.gef.presentation.FigLine"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
+        <group name="Fig7.5"
+             description="org.tigris.gef.presentation.FigGroup[]"
+             fill="0"
+             fillcolor="-1"
+             stroke="0"
+             strokecolor="-16777216"
         >
-          <moveto x="77"
-                  y="366" />
-          <lineto x="72"
-                  y="381" />
-        </path>
-        <path name="Fig7.6"
-          description="org.tigris.gef.presentation.FigLine"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="77"
-                  y="366" />
-          <lineto x="82"
-                  y="381" />
-        </path>
+          <private>
+          </private>
+          
+          <rectangle name="Fig7.5.0"
+            x="105"
+            y="17"
+            width="4"
+            height="4"
+            fill="0"
+            fillcolor="-1"
+            stroke="0"
+            strokecolor="-16777216"
+          />
+        </group>
       </group>
       <group name="Fig8"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[141, 400, 198, 60]"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fe5"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[168, 200, 256, 60]"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fe7"
            fill="1"
            fillcolor="-1"
            stroke="1"
@@ -10722,9 +10995,9 @@
         </private>
         
         <ellipse name="Fig8.0"
-          x="240"
-          y="430"
-          rx="99"
+          x="296"
+          y="230"
+          rx="128"
           ry="30"
           fill="1"
           fillcolor="-1"
@@ -10732,9 +11005,9 @@
           strokecolor="-16777216"
         />
         <ellipse name="Fig8.1"
-          x="240"
-          y="430"
-          rx="99"
+          x="296"
+          y="230"
+          rx="128"
           ry="30"
           fill="1"
           fillcolor="-1"
@@ -10742,18 +11015,18 @@
           strokecolor="-16777216"
         />
         <text name="Fig8.2"
-          x="165"
-          y="422"
+          x="199"
+          y="222"
           fill="0"
           fillcolor="-1"
           stroke="0"
           strokecolor="-16777216"
           font="Dialog"
           textsize="10"
-        >Visualiser la liste des comptes</text>
+        >Visualiser les informations d&apos;un compte</text>
         <text name="Fig8.3"
-          x="-23"
-          y="0"
+          x="-144"
+          y="-96"
           fill="0"
           fillcolor="-1"
           stroke="0"
@@ -10768,10 +11041,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="141"
-                  y="430" />
-          <lineto x="241"
-                  y="430" />
+          <moveto x="-144"
+                  y="-66" />
+          <lineto x="-44"
+                  y="-66" />
         </path>
         <group name="Fig8.5"
              description="org.tigris.gef.presentation.FigGroup[]"
@@ -10784,8 +11057,93 @@
           </private>
           
           <rectangle name="Fig8.5.0"
-            x="189"
-            y="433"
+            x="-96"
+            y="-63"
+            width="4"
+            height="4"
+            fill="0"
+            fillcolor="-1"
+            stroke="0"
+            strokecolor="-16777216"
+          />
+        </group>
+      </group>
+      <group name="Fig9"
+           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[232, 267, 128, 60]"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fe9"
+           fill="1"
+           fillcolor="-1"
+           stroke="1"
+           strokecolor="-16777216"
+      >
+        <private>
+        </private>
+        
+        <ellipse name="Fig9.0"
+          x="296"
+          y="297"
+          rx="64"
+          ry="30"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <ellipse name="Fig9.1"
+          x="296"
+          y="297"
+          rx="64"
+          ry="30"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        />
+        <text name="Fig9.2"
+          x="247"
+          y="289"
+          fill="0"
+          fillcolor="-1"
+          stroke="0"
+          strokecolor="-16777216"
+          font="Dialog"
+          textsize="10"
+        >Modifier un compte</text>
+        <text name="Fig9.3"
+          x="-144"
+          y="-117"
+          fill="0"
+          fillcolor="-1"
+          stroke="0"
+          strokecolor="-16777216"
+          font="Dialog"
+          textsize="10"
+        ></text>
+        <path name="Fig9.4"
+          description="org.tigris.gef.presentation.FigLine"
+          fill="1"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="-144"
+                  y="-87" />
+          <lineto x="-44"
+                  y="-87" />
+        </path>
+        <group name="Fig9.5"
+             description="org.tigris.gef.presentation.FigGroup[]"
+             fill="0"
+             fillcolor="-1"
+             stroke="0"
+             strokecolor="-16777216"
+        >
+          <private>
+          </private>
+          
+          <rectangle name="Fig9.5.0"
+            x="-96"
+            y="-84"
             width="4"
             height="4"
             fill="0"
@@ -10796,346 +11154,6 @@
         </group>
       </group>
       <group name="Fig10"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[177, 264, 124, 60]"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fea"
-           fill="1"
-           fillcolor="-1"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-        </private>
-        
-        <ellipse name="Fig10.0"
-          x="239"
-          y="294"
-          rx="62"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <ellipse name="Fig10.1"
-          x="239"
-          y="294"
-          rx="62"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <text name="Fig10.2"
-          x="193"
-          y="286"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        >Ajouter un compte</text>
-        <text name="Fig10.3"
-          x="0"
-          y="0"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        ></text>
-        <path name="Fig10.4"
-          description="org.tigris.gef.presentation.FigLine"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="177"
-                  y="294" />
-          <lineto x="277"
-                  y="294" />
-        </path>
-        <group name="Fig10.5"
-             description="org.tigris.gef.presentation.FigGroup[]"
-             fill="0"
-             fillcolor="-1"
-             stroke="0"
-             strokecolor="-16777216"
-        >
-          <private>
-          </private>
-          
-          <rectangle name="Fig10.5.0"
-            x="225"
-            y="297"
-            width="4"
-            height="4"
-            fill="0"
-            fillcolor="-1"
-            stroke="0"
-            strokecolor="-16777216"
-          />
-        </group>
-      </group>
-      <group name="Fig13"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[168, 496, 142, 60]"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fe8"
-           fill="1"
-           fillcolor="-1"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-        </private>
-        
-        <ellipse name="Fig13.0"
-          x="239"
-          y="526"
-          rx="71"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <ellipse name="Fig13.1"
-          x="239"
-          y="526"
-          rx="71"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <text name="Fig13.2"
-          x="186"
-          y="518"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        >Supprimer un compte</text>
-        <text name="Fig13.3"
-          x="0"
-          y="0"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        ></text>
-        <path name="Fig13.4"
-          description="org.tigris.gef.presentation.FigLine"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="168"
-                  y="526" />
-          <lineto x="268"
-                  y="526" />
-        </path>
-        <group name="Fig13.5"
-             description="org.tigris.gef.presentation.FigGroup[]"
-             fill="0"
-             fillcolor="-1"
-             stroke="0"
-             strokecolor="-16777216"
-        >
-          <private>
-          </private>
-          
-          <rectangle name="Fig13.5.0"
-            x="216"
-            y="529"
-            width="4"
-            height="4"
-            fill="0"
-            fillcolor="-1"
-            stroke="0"
-            strokecolor="-16777216"
-          />
-        </group>
-      </group>
-      <group name="Fig16"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[312, 296, 256, 60]"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fe7"
-           fill="1"
-           fillcolor="-1"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-        </private>
-        
-        <ellipse name="Fig16.0"
-          x="440"
-          y="326"
-          rx="128"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <ellipse name="Fig16.1"
-          x="440"
-          y="326"
-          rx="128"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <text name="Fig16.2"
-          x="343"
-          y="318"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        >Visualiser les informations d&apos;un compte</text>
-        <text name="Fig16.3"
-          x="0"
-          y="0"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        ></text>
-        <path name="Fig16.4"
-          description="org.tigris.gef.presentation.FigLine"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="312"
-                  y="326" />
-          <lineto x="412"
-                  y="326" />
-        </path>
-        <group name="Fig16.5"
-             description="org.tigris.gef.presentation.FigGroup[]"
-             fill="0"
-             fillcolor="-1"
-             stroke="0"
-             strokecolor="-16777216"
-        >
-          <private>
-          </private>
-          
-          <rectangle name="Fig16.5.0"
-            x="360"
-            y="329"
-            width="4"
-            height="4"
-            fill="0"
-            fillcolor="-1"
-            stroke="0"
-            strokecolor="-16777216"
-          />
-        </group>
-      </group>
-      <group name="Fig18"
-           description="org.argouml.uml.diagram.use_case.ui.FigUseCase[376, 384, 128, 60]"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fe9"
-           fill="1"
-           fillcolor="-1"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-        </private>
-        
-        <ellipse name="Fig18.0"
-          x="440"
-          y="414"
-          rx="64"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <ellipse name="Fig18.1"
-          x="440"
-          y="414"
-          rx="64"
-          ry="30"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        />
-        <text name="Fig18.2"
-          x="391"
-          y="406"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        >Modifier un compte</text>
-        <text name="Fig18.3"
-          x="0"
-          y="0"
-          fill="0"
-          fillcolor="-1"
-          stroke="0"
-          strokecolor="-16777216"
-          font="Dialog"
-          textsize="10"
-        ></text>
-        <path name="Fig18.4"
-          description="org.tigris.gef.presentation.FigLine"
-          fill="1"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="376"
-                  y="414" />
-          <lineto x="476"
-                  y="414" />
-        </path>
-        <group name="Fig18.5"
-             description="org.tigris.gef.presentation.FigGroup[]"
-             fill="0"
-             fillcolor="-1"
-             stroke="0"
-             strokecolor="-16777216"
-        >
-          <private>
-          </private>
-          
-          <rectangle name="Fig18.5.0"
-            x="424"
-            y="417"
-            width="4"
-            height="4"
-            fill="0"
-            fillcolor="-1"
-            stroke="0"
-            strokecolor="-16777216"
-          />
-        </group>
-      </group>
-      <group name="Fig2"
            description="org.argouml.uml.diagram.ui.FigAssociation"
            href="-64--88-1-1--6d7bb041:1070a48394e:-7feb"
            stroke="1"
@@ -11147,7 +11165,7 @@
           sourceFigNode="Fig1"
           destFigNode="Fig0"
         </private>
-        <path name="Fig2.1"
+        <path name="Fig10.1"
           description="org.tigris.gef.presentation.FigPoly"
           fill="0"
           fillcolor="-1"
@@ -11155,12 +11173,12 @@
           strokecolor="-16777216"
         >
           <moveto x="84"
-                  y="143" />
+                  y="63" />
           <lineto x="167"
-                  y="143" />
+                  y="63" />
         </path>
       </group>
-      <group name="Fig4"
+      <group name="Fig11"
            description="org.argouml.uml.diagram.use_case.ui.FigInclude"
            href="-64--88-1-1-5d252674:1072e7d46a5:-7ff3"
            stroke="1"
@@ -11168,11 +11186,11 @@
       >
         <private>
           sourcePortFig="Fig0.0"
-          destPortFig="Fig3.0"
+          destPortFig="Fig2.0"
           sourceFigNode="Fig0"
-          destFigNode="Fig3"
+          destFigNode="Fig2"
         </private>
-        <path name="Fig4.1"
+        <path name="Fig11.1"
           description="org.tigris.gef.presentation.FigPoly"
           fill="0"
           fillcolor="-1"
@@ -11180,12 +11198,12 @@
           strokecolor="-16777216"
         >
           <moveto x="299"
-                  y="142" />
+                  y="62" />
           <lineto x="400"
-                  y="142" />
+                  y="62" />
         </path>
       </group>
-      <group name="Fig6"
+      <group name="Fig12"
            description="org.argouml.uml.diagram.ui.FigAssociation"
            href="-64--88-1-1--5639f880:10709a5930c:-7fed"
            stroke="1"
@@ -11193,84 +11211,9 @@
       >
         <private>
           sourcePortFig="Fig1"
-          destPortFig="Fig5"
+          destPortFig="Fig3"
           sourceFigNode="Fig1"
-          destFigNode="Fig5"
-        </private>
-        <path name="LAYER_NULL"
-          description="org.tigris.gef.presentation.FigPoly"
-          fill="0"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="76"
-                  y="166" />
-          <lineto x="171"
-                  y="212" />
-        </path>
-      </group>
-      <group name="Fig9"
-           description="org.argouml.uml.diagram.ui.FigAssociation"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fe4"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-          sourcePortFig="Fig7"
-          destPortFig="Fig8"
-          sourceFigNode="Fig7"
-          destFigNode="Fig8"
-        </private>
-        <path name="LAYER_NULL"
-          description="org.tigris.gef.presentation.FigPoly"
-          fill="0"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="77"
-                  y="366" />
-          <lineto x="144"
-                  y="420" />
-        </path>
-      </group>
-      <group name="Fig11"
-           description="org.argouml.uml.diagram.ui.FigAssociation"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fd8"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-          sourcePortFig="Fig7"
-          destPortFig="Fig10"
-          sourceFigNode="Fig7"
-          destFigNode="Fig10"
-        </private>
-        <path name="LAYER_NULL"
-          description="org.tigris.gef.presentation.FigPoly"
-          fill="0"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="84"
-                  y="340" />
-          <lineto x="179"
-                  y="303" />
-        </path>
-      </group>
-      <group name="Fig12"
-           description="org.argouml.uml.diagram.use_case.ui.FigInclude"
-           href="-64--88-1-1-5d252674:1072e7d46a5:-7ff2"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-          sourcePortFig="Fig10.0"
-          destPortFig="Fig8.0"
-          sourceFigNode="Fig10"
-          destFigNode="Fig8"
+          destFigNode="Fig3"
         </private>
         <path name="Fig12.1"
           description="org.tigris.gef.presentation.FigPoly"
@@ -11279,25 +11222,25 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="239"
-                  y="324" />
-          <lineto x="239"
-                  y="400" />
+          <moveto x="76"
+                  y="86" />
+          <lineto x="171"
+                  y="132" />
         </path>
       </group>
-      <group name="Fig14"
+      <group name="Fig13"
            description="org.argouml.uml.diagram.ui.FigAssociation"
-           href="-64--88-1-1--5639f880:10709a5930c:-7fdb"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fe4"
            stroke="1"
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig7"
-          destPortFig="Fig13"
-          sourceFigNode="Fig7"
-          destFigNode="Fig13"
+          sourcePortFig="Fig4"
+          destPortFig="Fig5"
+          sourceFigNode="Fig4"
+          destFigNode="Fig5"
         </private>
-        <path name="LAYER_NULL"
+        <path name="Fig13.1"
           description="org.tigris.gef.presentation.FigPoly"
           fill="0"
           fillcolor="-1"
@@ -11306,21 +11249,46 @@
         >
           <moveto x="77"
                   y="366" />
-          <lineto x="180"
-                  y="507" />
+          <lineto x="200"
+                  y="436" />
         </path>
       </group>
-      <group name="Fig15"
-           description="org.argouml.uml.diagram.use_case.ui.FigInclude"
-           href="-64--88-1-1-5d252674:1072e7d46a5:-7ff1"
+      <group name="Fig14"
+           description="org.argouml.uml.diagram.ui.FigAssociation"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fd8"
            stroke="1"
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig13.0"
-          destPortFig="Fig8.0"
-          sourceFigNode="Fig13"
-          destFigNode="Fig8"
+          sourcePortFig="Fig4"
+          destPortFig="Fig6"
+          sourceFigNode="Fig4"
+          destFigNode="Fig6"
+        </private>
+        <path name="Fig14.1"
+          description="org.tigris.gef.presentation.FigPoly"
+          fill="0"
+          fillcolor="-1"
+          stroke="1"
+          strokecolor="-16777216"
+        >
+          <moveto x="85"
+                  y="343" />
+          <lineto x="233"
+                  y="385" />
+        </path>
+      </group>
+      <group name="Fig15"
+           description="org.argouml.uml.diagram.ui.FigAssociation"
+           href="-64--88-1-1--5639f880:10709a5930c:-7fdb"
+           stroke="1"
+           strokecolor="-16777216"
+      >
+        <private>
+          sourcePortFig="Fig4"
+          destPortFig="Fig7"
+          sourceFigNode="Fig4"
+          destFigNode="Fig7"
         </private>
         <path name="Fig15.1"
           description="org.tigris.gef.presentation.FigPoly"
@@ -11329,50 +11297,50 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="239"
-                  y="496" />
-          <lineto x="239"
-                  y="459" />
+          <moveto x="77"
+                  y="366" />
+          <lineto x="227"
+                  y="500" />
         </path>
       </group>
-      <group name="Fig17"
+      <group name="Fig16"
            description="org.argouml.uml.diagram.ui.FigAssociation"
            href="-64--88-1-1--5639f880:10709a5930c:-7fe1"
            stroke="1"
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig7"
-          destPortFig="Fig16"
-          sourceFigNode="Fig7"
-          destFigNode="Fig16"
+          sourcePortFig="Fig4"
+          destPortFig="Fig8"
+          sourceFigNode="Fig4"
+          destFigNode="Fig8"
         </private>
-        <path name="LAYER_NULL"
+        <path name="Fig16.1"
           description="org.tigris.gef.presentation.FigPoly"
           fill="0"
           fillcolor="-1"
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="85"
-                  y="343" />
-          <lineto x="311"
-                  y="326" />
+          <moveto x="81"
+                  y="336" />
+          <lineto x="173"
+                  y="239" />
         </path>
       </group>
-      <group name="Fig19"
+      <group name="Fig17"
            description="org.argouml.uml.diagram.ui.FigAssociation"
            href="-64--88-1-1--5639f880:10709a5930c:-7fde"
            stroke="1"
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig7"
-          destPortFig="Fig18"
-          sourceFigNode="Fig7"
-          destFigNode="Fig18"
+          sourcePortFig="Fig4"
+          destPortFig="Fig9"
+          sourceFigNode="Fig4"
+          destFigNode="Fig9"
         </private>
-        <path name="LAYER_NULL"
+        <path name="Fig17.1"
           description="org.tigris.gef.presentation.FigPoly"
           fill="0"
           fillcolor="-1"
@@ -11381,58 +11349,33 @@
         >
           <moveto x="85"
                   y="343" />
-          <lineto x="375"
-                  y="414" />
+          <lineto x="231"
+                  y="297" />
         </path>
       </group>
-      <group name="Fig20"
+      <group name="Fig18"
            description="org.argouml.uml.diagram.use_case.ui.FigInclude"
-           href="-64--88-1-1-5d252674:1072e7d46a5:-7ff0"
+           href="-64--88-1-1--1cdb4a0f:10732ec5167:-7ffe"
            stroke="1"
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig18.0"
-          destPortFig="Fig16.0"
-          sourceFigNode="Fig18"
-          destFigNode="Fig16"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig9.0"
+          sourceFigNode="Fig6"
+          destFigNode="Fig9"
         </private>
-        <path name="Fig20.1"
+        <path name="Fig18.1"
           description="org.tigris.gef.presentation.FigPoly"
           fill="0"
           fillcolor="-1"
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="439"
-                  y="384" />
-          <lineto x="439"
+          <moveto x="294"
                   y="355" />
-        </path>
-      </group>
-      <group name="Fig21"
-           description="org.argouml.uml.diagram.use_case.ui.FigInclude"
-           href="-64--88-1-1-5d252674:1072e7d46a5:-7fef"
-           stroke="1"
-           strokecolor="-16777216"
-      >
-        <private>
-          sourcePortFig="Fig16.0"
-          destPortFig="Fig8.0"
-          sourceFigNode="Fig16"
-          destFigNode="Fig8"
-        </private>
-        <path name="Fig21.1"
-          description="org.tigris.gef.presentation.FigPoly"
-          fill="0"
-          fillcolor="-1"
-          stroke="1"
-          strokecolor="-16777216"
-        >
-          <moveto x="386"
-                  y="353" />
-          <lineto x="289"
-                  y="403" />
+          <lineto x="294"
+                  y="326" />
         </path>
       </group>
     </pgml>
