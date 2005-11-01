@@ -24,6 +24,7 @@
     <searchpath href="PROJECT_DIR" />
     <searchpath href="PROJECT_DIR" />
     <searchpath href="PROJECT_DIR" />
+    <searchpath href="PROJECT_DIR" />
     <member type="xmi" />
     <member type="pgml" />
     <member type="pgml" />
@@ -191,7 +192,7 @@
                       </Behavioral_Elements.Use_Cases.Include.base>
                     </Behavioral_Elements.Use_Cases.Include>
                     <Behavioral_Elements.Use_Cases.UseCase xmi.id="xmi.16" xmi.uuid="-64--88-1-1--6d7bb041:1070a48394e:-7f50">
-                      <Foundation.Core.ModelElement.name>Visualiser la liste des tuteurs enseignants</Foundation.Core.ModelElement.name>
+                      <Foundation.Core.ModelElement.name>Visualiser la liste des tuteurs enseignant</Foundation.Core.ModelElement.name>
                       <Foundation.Core.ModelElement.isSpecification xmi.value="false"/>
                       <Foundation.Core.GeneralizableElement.isRoot xmi.value="false"/>
                       <Foundation.Core.GeneralizableElement.isLeaf xmi.value="false"/>
@@ -9864,8 +9865,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig5"
-          destPortFig="Fig0"
+          sourcePortFig="Fig5.0"
+          destPortFig="Fig0.0"
           sourceFigNode="Fig5"
           destFigNode="Fig0"
         </private>
@@ -9876,10 +9877,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="144"
-                  y="388" />
-          <lineto x="325"
-                  y="326" />
+          <moveto x="145"
+                  y="384" />
+          <lineto x="333"
+                  y="339" />
         </path>
       </group>
       <group name="Fig16"
@@ -9889,8 +9890,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig5"
-          destPortFig="Fig1"
+          sourcePortFig="Fig5.0"
+          destPortFig="Fig1.0"
           sourceFigNode="Fig5"
           destFigNode="Fig1"
         </private>
@@ -9902,8 +9903,8 @@
           strokecolor="-16777216"
         >
           <moveto x="145"
-                  y="391" />
-          <lineto x="318"
+                  y="390" />
+          <lineto x="319"
                   y="390" />
         </path>
       </group>
@@ -9914,8 +9915,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig4"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig4.0"
           sourceFigNode="Fig6"
           destFigNode="Fig4"
         </private>
@@ -9927,9 +9928,9 @@
           strokecolor="-16777216"
         >
           <moveto x="146"
-                  y="199" />
-          <lineto x="269"
-                  y="182" />
+                  y="192" />
+          <lineto x="271"
+                  y="186" />
         </path>
       </group>
       <group name="Fig18"
@@ -9939,8 +9940,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig8"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig8.0"
           sourceFigNode="Fig6"
           destFigNode="Fig8"
         </private>
@@ -9952,9 +9953,9 @@
           strokecolor="-16777216"
         >
           <moveto x="146"
-                  y="199" />
-          <lineto x="259"
-                  y="246" />
+                  y="244" />
+          <lineto x="260"
+                  y="244" />
         </path>
       </group>
       <group name="Fig19"
@@ -9964,8 +9965,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig7"
-          destPortFig="Fig2"
+          sourcePortFig="Fig7.0"
+          destPortFig="Fig2.0"
           sourceFigNode="Fig7"
           destFigNode="Fig2"
         </private>
@@ -9977,9 +9978,9 @@
           strokecolor="-16777216"
         >
           <moveto x="148"
-                  y="55" />
-          <lineto x="266"
-                  y="38" />
+                  y="48" />
+          <lineto x="268"
+                  y="43" />
         </path>
       </group>
       <group name="Fig20"
@@ -9989,8 +9990,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig7"
-          destPortFig="Fig3"
+          sourcePortFig="Fig7.0"
+          destPortFig="Fig3.0"
           sourceFigNode="Fig7"
           destFigNode="Fig3"
         </private>
@@ -10002,9 +10003,9 @@
           strokecolor="-16777216"
         >
           <moveto x="148"
-                  y="55" />
-          <lineto x="298"
-                  y="102" />
+                  y="101" />
+          <lineto x="299"
+                  y="101" />
         </path>
       </group>
       <group name="Fig21"
@@ -10014,8 +10015,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig10"
-          destPortFig="Fig11"
+          sourcePortFig="Fig10.0"
+          destPortFig="Fig11.0"
           sourceFigNode="Fig10"
           destFigNode="Fig11"
         </private>
@@ -10027,9 +10028,9 @@
           strokecolor="-16777216"
         >
           <moveto x="148"
-                  y="519" />
-          <lineto x="257"
-                  y="542" />
+                  y="540" />
+          <lineto x="258"
+                  y="540" />
         </path>
       </group>
       <group name="Fig22"
@@ -10039,8 +10040,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig5"
-          destPortFig="Fig9"
+          sourcePortFig="Fig5.0"
+          destPortFig="Fig9.0"
           sourceFigNode="Fig5"
           destFigNode="Fig9"
         </private>
@@ -10051,10 +10052,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="137"
-                  y="414" />
-          <lineto x="255"
-                  y="454" />
+          <moveto x="145"
+                  y="444" />
+          <lineto x="258"
+                  y="448" />
         </path>
       </group>
       <group name="Fig23"
@@ -10064,8 +10065,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig12"
-          destPortFig="Fig13"
+          sourcePortFig="Fig12.0"
+          destPortFig="Fig13.0"
           sourceFigNode="Fig12"
           destFigNode="Fig13"
         </private>
@@ -10077,9 +10078,9 @@
           strokecolor="-16777216"
         >
           <moveto x="148"
-                  y="631" />
-          <lineto x="262"
-                  y="622" />
+                  y="624" />
+          <lineto x="263"
+                  y="623" />
         </path>
       </group>
       <group name="Fig24"
@@ -10089,8 +10090,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig12"
-          destPortFig="Fig14"
+          sourcePortFig="Fig12.0"
+          destPortFig="Fig14.0"
           sourceFigNode="Fig12"
           destFigNode="Fig14"
         </private>
@@ -10101,10 +10102,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="140"
-                  y="654" />
-          <lineto x="261"
-                  y="686" />
+          <moveto x="148"
+                  y="684" />
+          <lineto x="262"
+                  y="684" />
         </path>
       </group>
     </pgml>
@@ -11812,8 +11813,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig5"
-          destPortFig="Fig3"
+          sourcePortFig="Fig5.0"
+          destPortFig="Fig3.0"
           sourceFigNode="Fig5"
           destFigNode="Fig3"
         </private>
@@ -11824,10 +11825,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="140"
-                  y="268" />
-          <lineto x="305"
-                  y="207" />
+          <moveto x="141"
+                  y="264" />
+          <lineto x="312"
+                  y="213" />
         </path>
       </group>
       <group name="Fig8"
@@ -11837,8 +11838,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig5"
-          destPortFig="Fig2"
+          sourcePortFig="Fig5.0"
+          destPortFig="Fig2.0"
           sourceFigNode="Fig5"
           destFigNode="Fig2"
         </private>
@@ -11849,10 +11850,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="133"
-                  y="294" />
+          <moveto x="141"
+                  y="324" />
           <lineto x="296"
-                  y="340" />
+                  y="342" />
         </path>
       </group>
       <group name="Fig9"
@@ -11862,8 +11863,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig1"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig1.0"
           sourceFigNode="Fig6"
           destFigNode="Fig1"
         </private>
@@ -11875,9 +11876,9 @@
           strokecolor="-16777216"
         >
           <moveto x="141"
-                  y="71" />
-          <lineto x="239"
-                  y="54" />
+                  y="64" />
+          <lineto x="242"
+                  y="59" />
         </path>
       </group>
       <group name="Fig10"
@@ -11887,8 +11888,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig4"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig4.0"
           sourceFigNode="Fig6"
           destFigNode="Fig4"
         </private>
@@ -11900,9 +11901,9 @@
           strokecolor="-16777216"
         >
           <moveto x="141"
-                  y="71" />
-          <lineto x="272"
-                  y="118" />
+                  y="117" />
+          <lineto x="273"
+                  y="117" />
         </path>
       </group>
       <group name="Fig11"
@@ -11912,8 +11913,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig5"
-          destPortFig="Fig0"
+          sourcePortFig="Fig5.0"
+          destPortFig="Fig0.0"
           sourceFigNode="Fig5"
           destFigNode="Fig0"
         </private>
@@ -11925,9 +11926,9 @@
           strokecolor="-16777216"
         >
           <moveto x="141"
-                  y="271" />
-          <lineto x="300"
-                  y="286" />
+                  y="285" />
+          <lineto x="301"
+                  y="285" />
         </path>
       </group>
       <group name="Fig12"
@@ -13835,8 +13836,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig4"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig4.0"
           sourceFigNode="Fig0"
           destFigNode="Fig4"
         </private>
@@ -13849,7 +13850,7 @@
         >
           <moveto x="161"
                   y="462" />
-          <lineto x="300"
+          <lineto x="301"
                   y="462" />
         </path>
       </group>
@@ -13860,8 +13861,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig3"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig3.0"
           sourceFigNode="Fig0"
           destFigNode="Fig3"
         </private>
@@ -13872,10 +13873,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="155"
-                  y="454" />
-          <lineto x="320"
-                  y="113" />
+          <moveto x="161"
+                  y="455" />
+          <lineto x="354"
+                  y="123" />
         </path>
       </group>
       <group name="Fig11"
@@ -13910,8 +13911,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig1"
-          destPortFig="Fig5"
+          sourcePortFig="Fig1.0"
+          destPortFig="Fig5.0"
           sourceFigNode="Fig1"
           destFigNode="Fig5"
         </private>
@@ -13924,7 +13925,7 @@
         >
           <moveto x="161"
                   y="191" />
-          <lineto x="306"
+          <lineto x="307"
                   y="191" />
         </path>
       </group>
@@ -13935,8 +13936,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig2"
-          destPortFig="Fig6"
+          sourcePortFig="Fig2.0"
+          destPortFig="Fig6.0"
           sourceFigNode="Fig2"
           destFigNode="Fig6"
         </private>
@@ -13947,10 +13948,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="160"
-                  y="317" />
-          <lineto x="247"
-                  y="287" />
+          <moveto x="161"
+                  y="313" />
+          <lineto x="261"
+                  y="300" />
         </path>
       </group>
       <group name="Fig14"
@@ -13985,8 +13986,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig2"
-          destPortFig="Fig7"
+          sourcePortFig="Fig2.0"
+          destPortFig="Fig7.0"
           sourceFigNode="Fig2"
           destFigNode="Fig7"
         </private>
@@ -13997,10 +13998,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="153"
-                  y="343" />
-          <lineto x="280"
-                  y="382" />
+          <moveto x="161"
+                  y="373" />
+          <lineto x="281"
+                  y="378" />
         </path>
       </group>
       <group name="Fig16"
@@ -14434,7 +14435,7 @@
           strokecolor="-16777216"
         />
         <text name="Fig4.2"
-          x="215"
+          x="217"
           y="118"
           fill="0"
           fillcolor="-1"
@@ -14442,7 +14443,7 @@
           strokecolor="-16777216"
           font="Dialog"
           textsize="10"
-        >Visualiser la liste des tuteurs enseignants</text>
+        >Visualiser la liste des tuteurs enseignant</text>
         <text name="Fig4.3"
           x="0"
           y="0"
@@ -15428,8 +15429,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig1"
-          destPortFig="Fig0"
+          sourcePortFig="Fig1.0"
+          destPortFig="Fig0.0"
           sourceFigNode="Fig1"
           destFigNode="Fig0"
         </private>
@@ -15440,10 +15441,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="77"
-                  y="252" />
-          <lineto x="219"
-                  y="206" />
+          <moveto x="78"
+                  y="248" />
+          <lineto x="230"
+                  y="220" />
         </path>
       </group>
       <group name="Fig8"
@@ -15453,8 +15454,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig1"
-          destPortFig="Fig2"
+          sourcePortFig="Fig1.0"
+          destPortFig="Fig2.0"
           sourceFigNode="Fig1"
           destFigNode="Fig2"
         </private>
@@ -15466,9 +15467,9 @@
           strokecolor="-16777216"
         >
           <moveto x="78"
-                  y="255" />
-          <lineto x="216"
-                  y="302" />
+                  y="301" />
+          <lineto x="217"
+                  y="301" />
         </path>
       </group>
       <group name="Fig9"
@@ -15503,8 +15504,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig1"
-          destPortFig="Fig3"
+          sourcePortFig="Fig1.0"
+          destPortFig="Fig3.0"
           sourceFigNode="Fig1"
           destFigNode="Fig3"
         </private>
@@ -15515,10 +15516,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="70"
-                  y="278" />
-          <lineto x="213"
-                  y="356" />
+          <moveto x="78"
+                  y="308" />
+          <lineto x="233"
+                  y="346" />
         </path>
       </group>
       <group name="Fig11"
@@ -15528,8 +15529,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig4"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig4.0"
           sourceFigNode="Fig6"
           destFigNode="Fig4"
         </private>
@@ -15541,9 +15542,9 @@
           strokecolor="-16777216"
         >
           <moveto x="84"
-                  y="79" />
-          <lineto x="167"
-                  y="62" />
+                  y="72" />
+          <lineto x="171"
+                  y="68" />
         </path>
       </group>
       <group name="Fig12"
@@ -15553,8 +15554,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig5"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig5.0"
           sourceFigNode="Fig6"
           destFigNode="Fig5"
         </private>
@@ -15566,9 +15567,9 @@
           strokecolor="-16777216"
         >
           <moveto x="84"
-                  y="79" />
-          <lineto x="190"
-                  y="126" />
+                  y="124" />
+          <lineto x="191"
+                  y="124" />
         </path>
       </group>
     </pgml>
@@ -16527,8 +16528,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig1"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig1.0"
           sourceFigNode="Fig0"
           destFigNode="Fig1"
         </private>
@@ -16539,10 +16540,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="160"
+          <moveto x="164"
                   y="488" />
-          <lineto x="351"
-                  y="295" />
+          <lineto x="387"
+                  y="312" />
         </path>
       </group>
       <group name="Fig12"
@@ -16577,8 +16578,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig2"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig2.0"
           sourceFigNode="Fig0"
           destFigNode="Fig2"
         </private>
@@ -16589,10 +16590,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="163"
-                  y="492" />
-          <lineto x="349"
-                  y="407" />
+          <moveto x="164"
+                  y="488" />
+          <lineto x="365"
+                  y="417" />
         </path>
       </group>
       <group name="Fig14"
@@ -16602,8 +16603,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig3"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig3.0"
           sourceFigNode="Fig0"
           destFigNode="Fig3"
         </private>
@@ -16615,9 +16616,9 @@
           strokecolor="-16777216"
         >
           <moveto x="164"
-                  y="495" />
-          <lineto x="338"
-                  y="462" />
+                  y="488" />
+          <lineto x="341"
+                  y="469" />
         </path>
       </group>
       <group name="Fig15"
@@ -16627,8 +16628,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig4"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig4.0"
           sourceFigNode="Fig6"
           destFigNode="Fig4"
         </private>
@@ -16640,9 +16641,9 @@
           strokecolor="-16777216"
         >
           <moveto x="164"
-                  y="111" />
-          <lineto x="287"
-                  y="70" />
+                  y="104" />
+          <lineto x="307"
+                  y="85" />
         </path>
       </group>
       <group name="Fig16"
@@ -16652,8 +16653,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig5"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig5.0"
           sourceFigNode="Fig6"
           destFigNode="Fig5"
         </private>
@@ -16665,9 +16666,9 @@
           strokecolor="-16777216"
         >
           <moveto x="164"
-                  y="111" />
-          <lineto x="316"
-                  y="134" />
+                  y="133" />
+          <lineto x="317"
+                  y="133" />
         </path>
       </group>
       <group name="Fig17"
@@ -16702,8 +16703,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig7"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig7.0"
           sourceFigNode="Fig0"
           destFigNode="Fig7"
         </private>
@@ -16715,9 +16716,9 @@
           strokecolor="-16777216"
         >
           <moveto x="164"
-                  y="495" />
-          <lineto x="325"
-                  y="526" />
+                  y="525" />
+          <lineto x="326"
+                  y="525" />
         </path>
       </group>
       <group name="Fig19"
@@ -16727,8 +16728,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig9"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig9.0"
           sourceFigNode="Fig0"
           destFigNode="Fig9"
         </private>
@@ -16739,10 +16740,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="156"
-                  y="518" />
-          <lineto x="327"
-                  y="620" />
+          <moveto x="164"
+                  y="548" />
+          <lineto x="354"
+                  y="608" />
         </path>
       </group>
       <group name="Fig20"
@@ -16752,8 +16753,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig8"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig8.0"
           sourceFigNode="Fig0"
           destFigNode="Fig8"
         </private>
@@ -16764,10 +16765,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="156"
-                  y="518" />
-          <lineto x="321"
-                  y="684" />
+          <moveto x="164"
+                  y="548" />
+          <lineto x="375"
+                  y="667" />
         </path>
       </group>
       <group name="Fig21"
@@ -16777,8 +16778,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig10"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig10.0"
           sourceFigNode="Fig6"
           destFigNode="Fig10"
         </private>
@@ -16789,10 +16790,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="156"
-                  y="134" />
-          <lineto x="318"
-                  y="198" />
+          <moveto x="164"
+                  y="164" />
+          <lineto x="328"
+                  y="185" />
         </path>
       </group>
     </pgml>
@@ -17411,8 +17412,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig1"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig1.0"
           sourceFigNode="Fig0"
           destFigNode="Fig1"
         </private>
@@ -17423,10 +17424,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="92"
-                  y="281" />
-          <lineto x="212"
-                  y="199" />
+          <moveto x="94"
+                  y="279" />
+          <lineto x="257"
+                  y="214" />
         </path>
       </group>
       <group name="Fig8"
@@ -17436,8 +17437,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig2"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig2.0"
           sourceFigNode="Fig0"
           destFigNode="Fig2"
         </private>
@@ -17449,9 +17450,9 @@
           strokecolor="-16777216"
         >
           <moveto x="94"
-                  y="286" />
-          <lineto x="204"
-                  y="294" />
+                  y="292" />
+          <lineto x="205"
+                  y="292" />
         </path>
       </group>
       <group name="Fig9"
@@ -17486,8 +17487,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig0"
-          destPortFig="Fig3"
+          sourcePortFig="Fig0.0"
+          destPortFig="Fig3.0"
           sourceFigNode="Fig0"
           destFigNode="Fig3"
         </private>
@@ -17498,10 +17499,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="86"
-                  y="309" />
-          <lineto x="199"
-                  y="358" />
+          <moveto x="94"
+                  y="339" />
+          <lineto x="206"
+                  y="348" />
         </path>
       </group>
       <group name="Fig11"
@@ -17511,8 +17512,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig4"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig4.0"
           sourceFigNode="Fig6"
           destFigNode="Fig4"
         </private>
@@ -17523,10 +17524,10 @@
           stroke="1"
           strokecolor="-16777216"
         >
-          <moveto x="91"
-                  y="77" />
-          <lineto x="152"
-                  y="46" />
+          <moveto x="92"
+                  y="73" />
+          <lineto x="183"
+                  y="62" />
         </path>
       </group>
       <group name="Fig12"
@@ -17536,8 +17537,8 @@
            strokecolor="-16777216"
       >
         <private>
-          sourcePortFig="Fig6"
-          destPortFig="Fig5"
+          sourcePortFig="Fig6.0"
+          destPortFig="Fig5.0"
           sourceFigNode="Fig6"
           destFigNode="Fig5"
         </private>
@@ -17549,9 +17550,9 @@
           strokecolor="-16777216"
         >
           <moveto x="92"
-                  y="80" />
-          <lineto x="178"
-                  y="110" />
+                  y="108" />
+          <lineto x="179"
+                  y="108" />
         </path>
       </group>
     </pgml>
