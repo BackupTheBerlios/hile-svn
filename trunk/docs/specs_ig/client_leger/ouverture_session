@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <input>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>ouverture_session</title>
+
+
+</head>
+<body>
+
+<span style="font-family: Utopia;"></span><br style="font-family: Utopia;">
+
+<span style="font-family: Utopia;"><br>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</span>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8">
+<title></title>
+<meta name="GENERATOR" content="OpenOffice.org 1.1.4 (Linux)">
+<meta name="CREATED" content="20051024;22533400">
+<meta name="CHANGED" content="20051102;23303700">
+<style>
+<!--
+@page { size: 21cm 29.7cm; margin: 2cm }
+P { text-indent: 1cm; margin-top: 0.5cm; margin-bottom: 0.21cm; text-align: justify }
+TD P { margin-bottom: 0cm; text-align: justify }
+-<br><br><br><br></style>
+
+
+
+
+&nbsp;<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<table style="text-align: left; height: 189px; margin-left: 0px; width: 713px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+
+    <tr>
+
+      <td style="width: 151px;" colspan="1" rowspan="4"><img style="width: 135px; height: 106px; float: left;" alt="" src="file:///home/gerald/workspace/trunk/docs/specs_ig/client_leger/logo.png"></td>
+
+      <td colspan="2" rowspan="1" style="text-align: center; font-family: Utopia; width: 237px;">
+      <div style="text-align: left;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Ouverture
+de session sur l'application Hile<br>
+      </div>
+      <div style="text-align: left;">&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Gestion des Apprentis
+      </div>
+      </td>
+
+
+    </tr>
+
+    <tr>
+
+      <td style="width: 237px;"><span style="font-family: Utopia;">
+Identifiant : &nbsp;
+&nbsp; <input name="identifiant"></span><br>
+
+      <span style="font-family: Utopia;"></span></td>
+
+      <td style="width: 147px;"></td>
+
+    </tr>
+
+    <tr>
+
+      <td style="width: 237px;"><span style="font-family: Utopia;">Mot de
+passe :&nbsp;<input name="mdp">
+
+      </span></td>
+
+      <td style="width: 147px;"><span style="font-family: Utopia;"></span>
+      <div style="text-align: right;"><span style="font-family: Utopia;">
+      <div style="text-align: right; width: 108px;">
+      <div style="text-align: right; width: 69px;"><span style="font-family: Utopia;"><button value="Valider" name="Valider">Valider</button></span></div>
+      <span style="font-family: Utopia;">
+      </span></div>
+      </span></div>
+      <span style="font-family: Utopia;">
+      </span></td>
+
+    </tr>
+
+    <tr align="right">
+
+      <td colspan="2" rowspan="1" style="text-align: center; width: 237px;"><br>
+
+      </td>
+
+
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<span style="font-family: Utopia;">&nbsp;&nbsp;&nbsp;</span><span style="font-family: Utopia;">&nbsp;&nbsp;&nbsp; </span><span style="font-family: Utopia;"></span><span style="font-family: Utopia;"></span>
+</body>
+</html>
