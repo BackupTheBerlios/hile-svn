@@ -2,7 +2,7 @@
   include('top.html');
 ?>
 
-<h3>Liens</h3>
+<h1>Liens</h1>
 <p>Le <a href="http://hile.berlios.de/wiki/">wiki</a> du projet Hile</p>
 <p>...</p>
 
