@@ -1,107 +1,121 @@
 /* HTML ELEMENT */
-html, body {
-   height: 100%;
+html,body {
+	height: 100%;
 }
 
 body {
-   margin: 0;
-   font-family: verdana, arial, helvetica, sans-serif;
-   font-size: 13pt;
+	margin: 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11pt;
 }
 
 h1 {
-   color: white;
-   background: #317082;
+	color: white;
+	background: #317082;
 }
 
 a {
-   border: 1px hidden;
 	text-decoration: none;
 }
 
-a:hover, a:active {
-	border: 1px dotted;
+a:hover,a:active {
+	text-decoration: underline;
 }
 
 a:active {
-   border: 1px solid;
+	text-decoration: underline;
 }
 
 /* LAYOUT */
-
 #container {
-   position: relative;
-   margin: 0 auto;
-   min-height: 100%;
-   width: 730px;
-   color: #DDD;
-   background: #317082;
+	position: relative;
+	margin: 0 auto;
+	min-height: 100%;
+	width: 790px;
+	color: #DDD;
+	background: #317082;
 }
 
 #header {
-   position: relative;
-   font-size: 40px;
-   letter-spacing: 10px;
-   text-align: center;
-   color: #f7d505;
-   background: #317082;
+	position: relative;
+	font-size: 40px;
+	letter-spacing: 10px;
+	text-align: center;
+	color: #f7d505;
+	background: #317082;
 }
 
 #content {
-   position: relative;
-   margin: 10px;
-   padding-bottom: 20px; /* espace pour le footer */
+	position: relative;
+	margin: 10px;
+	padding-bottom: 20px; /* espace pour le footer */
 }
 
 div.menu {
-   position: relative;
-   float: left;
-   width: 175px;
-   border: 1px solid white;
+	position: relative;
+	float: left;
+	width: 160px;
+	border: 1px solid white;
 }
 
 #main {
-   position: relative;
-   margin-left: 190px;
+	position: relative;
+	margin-left: 190px;
 }
 
 #footer {
-   position: absolute;
-   bottom: 0;
-   width: 100%;  
-   padding-top: 3px;
-   padding-bottom: 3px;
-   font-size: 10pt;
-   text-align: center;
-   color: white;
-   background-color: black;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 10pt;
+	text-align: center;
+	color: white;
+	background-color: black;
 }
 
 /* HEADER */
 #logo {
-   vertical-align:middle;
-   margin: 10px;
+	vertical-align: middle;
+	margin: 10px;
 }
 
 /* MENU */
-
 li.menu {
-   margin: 2px;
+	margin: 2px;
 }
 
 a.menu {
-   border: 1px hidden;
 	text-decoration: none;
 	color: white;
 	background: #317082;
 }
 
-a.menu:hover, a.menu:active {
+a.menu:hover,a.menu:active {
 	color: blue;
 	background: #317082;
-	border: 1px dotted;
+	text-decoration: underline;
 }
 
 a.menu:active {
+	text-decoration: underline;
+}
+
+table.report {
 	border: 1px solid;
+	border-color: white;
+	margin: 15px;
+}
+
+td.report {
+	border: 1px solid;
+	border-color: white;
+	font-size: 11pt;
+}
+
+th.report {
+	background-color: darkgray;
+	font-size: 12pt;
+	font-weight: bold;
 }
