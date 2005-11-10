@@ -20,13 +20,13 @@ Les <a href="#reunions_clients">comptes-rendus</a> des rénuions clients sont éga
 	<tbody>
 		<tr>
 			<td class="report">10/11/2005</td>
-			<td class="report"><a href="rendus/phase3/20051110/">Cahier des charges graphique</a></td>
+			<td class="report"><a href="rendus/phase3/20051110/HILE_cahier_des_charges_graphique_V1.pdf">Cahier des charges graphique</a></td>
 			<td class="report">Pr&eacute;sente la charte graphique ainsi que le d&eacute;coupage de Hile en diff&eacute;rentes
 			zones pour un client l&eacute;ger et un client riche</td>
 		</tr>
 		<tr>
 			<td class="report">10/11/2005</td>
-			<td class="report"><a href="rendus/phase3/20051110/">Etat d'avancement 3</a></td>
+			<td class="report"><a href="rendus/phase3/20051110/HILE_etat_avancement_P3_V1.pdf">Etat d'avancement 3</a></td>
 			<td class="report">Utilisation des ressources depuis le rendu du cahier des charges fonctionnel jusqu'au rendu du
 			cahier des charges graphique. Planification de la phase 4, c'est &agrave; dire depuis le rendu du cahier des charges
 			graphique jusqu'au rendu du cahier des charges technique</td>
@@ -124,7 +124,7 @@ Les <a href="#reunions_clients">comptes-rendus</a> des rénuions clients sont éga
 			<td class="report">06/10/2005</td>
 			<td class="report"><a href="rendus/phase1/20051006/HILE_cahier_des_charges_V1.pdf">Cahier des charges</a></td>
 			<td class="report">Bilan exhaustif de l'expression de besoins client dans le cadre de la refonte de l'application
-			Gala. S'appuie sur la des<a href="">CRiption de l'ensemble des objectifs du projet Hile et de ses contributeurs</td>
+			Gala. S'appuie sur la description de l'ensemble des objectifs du projet Hile et de ses contributeurs</td>
 		</tr>
 		<tr>
 			<td class="report">05/10/2005</td>

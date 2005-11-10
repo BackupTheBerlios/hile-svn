@@ -37,7 +37,6 @@ a:active {
 }
 
 #header {
-	position: relative;
 	font-size: 40px;
 	letter-spacing: 10px;
 	text-align: center;
@@ -46,27 +45,24 @@ a:active {
 }
 
 #content {
-	position: relative;
 	margin: 10px;
 	padding-bottom: 20px; /* espace pour le footer */
 }
 
 div.menu {
-	position: relative;
 	float: left;
 	width: 160px;
 	border: 1px solid white;
 }
 
 #main {
-	position: relative;
 	margin-left: 190px;
 }
 
 #footer {
 	position: absolute;
-	bottom: 0;
 	width: 100%;
+	bottom: 0px;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	font-size: 10pt;
@@ -118,4 +114,9 @@ th.report {
 	background-color: darkgray;
 	font-size: 12pt;
 	font-weight: bold;
+}
+
+hr {
+	visibility: hidden;
+	clear: both;
 }
