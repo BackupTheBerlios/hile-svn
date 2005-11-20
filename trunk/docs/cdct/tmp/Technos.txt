@@ -4,8 +4,6 @@ Conteneur de servlets:
  -TomCat: Denis
  -JBOSS: Denis
  -JOnAS
- -Resin
- -Jetty
 
 Conteneur d'EJB:
  -JBOSS: Denis
