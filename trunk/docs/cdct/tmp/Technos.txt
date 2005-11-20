@@ -1,0 +1,93 @@
+Sont listés ci-dessous toutes les techno susceptibles d'être utilisés dans le projet:
+
+Conteneur de servlets:
+ -TomCat: Denis
+ -JBOSS: Denis
+ -JOnAS
+ -Resin
+ -Jetty
+
+Conteneur d'EJB:
+ -JBOSS: Denis
+ -PicoContainer
+ -Spring
+ 
+Base de données:
+ -PostGreSql: Olivier 
+ -MySQL
+
+Relation Objet/BDD:
+ -Hibernate: Olivier 
+ -JDO
+ -JDBC: Denis
+
+Framework:
+ -Struts
+ -JSF
+
+Outil de développement:
+ -Eclipse
+ -NetBeans
+
+Outils Java/UML:
+ -Omondo Plugin
+ -Borland Together Architect
+ -BOUML
+
+Construction:
+ -Ant: Sébastien
+ -Maven: Sébastien
+
+Journalisation:
+ -Jakarta Commons Logging: Sébastien
+ -Log4j: Sébastien
+
+Configuration:
+ -Jakarta Commons Configuration: Romain 
+ -XML Configuration
+
+Test:
+ -JUnit: Denis 
+ -Cactus
+
+Client léger:
+ -Ajax: Gerald 
+ -Javascript: Gerald 
+
+Format:
+ -CSS:  Denis
+
+Graphique:
+ -JFreeChart: Gerald  
+
+Export XML:
+ -librairie XML: Antoine
+
+Export PDF ou Impression:
+ -Itext
+ -FOP
+
+Export CSV:
+
+
+Mail:
+ -JavaMail 
+
+Obsoletes:
+ -JGoodies: Romain 
+
+-----------------------------------------------------------
+Design Patterns: Olivier
+ -DAO
+ -Abstract Factory
+ -Factory
+ -Singleton
+ -Iterator
+ -Adapter
+ -Facade
+ -Proxy
+ -Session Facade
+ -Buisness Delegate
+ -Service Locator
+ -MVC
+
